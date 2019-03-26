@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>0502 Урок 18: Слайдер Swiper + JQuery</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	
+	<div id="wrapper" class="container">
+		
+		<h1>0502 Урок 18: Слайдер Swiper + JQuery</h1>
+		<hr>		
+		
+		<!-- Swiper slider container -->
+		<div class="swiper-container">			
+			
+			<!-- Swiper slider wrapper -->
+			<div class="swiper-wrapper">
+				
+				<!-- Slides -->
+				<div class="swiper-slide" data-swiper-autoplay="3000">
+					<img src="images/slide1.jpg" alt="" class="img-responsive">
+					<div class="fg">
+						<h2>Слайд 1</h2>
+						<p>Текст на слайде 1</p>
+						<a href="#" class="btn btn-warning">Перейти</a>
+					</div>
+				</div>
+				<div class="swiper-slide" data-swiper-autoplay="3000">
+					<img src="images/slide2.jpg" alt="" class="img-responsive">
+					<div class="fg">
+						<h2>Слайд 2</h2>
+						<p>Текст на слайде 2</p>
+						<a href="#" class="btn btn-warning">Перейти</a>
+					</div>
+				</div>
+				<div class="swiper-slide" data-swiper-autoplay="3000">
+					<img src="images/slide3.jpg" alt="" class="img-responsive">
+					<div class="fg">
+						<h2>Слайд 3</h2>
+						<p>Текст на слайде 3</p>
+						<a href="#" class="btn btn-warning">Перейти</a>
+					</div>
+				</div>
+			</div>	<!-- end slider wrapper -->
+			
+			<!-- Swiper slider pagination -->
+			<div class="swiper-pagination"></div>
+			
+			<!-- Swiper slider navigation -->
+			<div class="swiper-button-prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			</div>
+			<div class="swiper-button-next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			</div>
+			
+		</div> <!-- end slider container -->
+		
+	</div> <!-- end wrapper -->
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/scripts.js"></script>
+	
+</body>
+</html>

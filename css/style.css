@@ -1,0 +1,136 @@
+﻿body
+{
+	font-family: Verdana, sans-serif;
+	color: #4C4C4C;
+	font-weight: normal;
+	font-size: medium;
+	background-color: #fff;
+}
+
+h1,h2,h3,h4 {
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.2em;
+}
+
+
+a {
+	color: #6C6C6C;
+	text-decoration: none;
+}
+a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+#wrapper {
+	border: 1px #000 solid;
+	padding: 2em;
+}
+
+/* Swiper-cлайдер --------------------------*/
+
+.swiper-container 	/* контейнер для swiper-слайдера */
+{
+    /**/
+}
+.swiper-slide 	/* контейнер для слайда */
+{
+	text-align: center;
+}
+.swiper-pagination	/* контейнер для навигации*/
+{
+	margin-bottom: 0.5em;
+}
+.swiper-pagination-bullets span
+{
+	border: 2px #d9d9d9 solid;
+	-webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+	padding: 0 0.6em;
+	margin: 0 0.5em;
+	font-size: 0.5em;
+	transitiom: 0.3s;
+}
+.swiper-pagination-bullet-active
+{
+	background-color: #d9d9d9;
+}
+.swiper-button-prev, .swiper-button-next	/* кнопки назад-вперед */
+{
+	background-image: none;	
+	background-color: #5BB112;
+	color: #5BB112;
+	font-size: 1.5em;
+}
+.swiper-button-prev
+{
+	left: 0px;
+	right: auto;
+	padding-top: 0.3em;
+	padding-left: 0.1em;
+	background-color: #000;
+	color: #fff;
+	transition: .3s;
+}
+.swiper-button-prev:hover
+{
+	background-color: #5BB112;
+	color: #fff;
+}
+.swiper-button-next
+{
+	right: 0px;
+	left: auto;
+	background-color: #000;
+	color: #fff;
+	padding-top: 0.3em;
+	padding-left: 0.1em;
+	transition: .3s;
+}
+.swiper-button-next:hover
+{
+	background-color: #5BB112;
+	color: #fff;
+}
+.swiper-slide  img
+{
+	width: 100%;
+}
+.swiper-slide  .fg		/* контейнер для текста на слайде */
+{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	padding:20px;
+	text-align:center;
+	width: 100%;
+	color:#fff;
+	padding:3em 1em;
+}
+.swiper-slide  .fg h2
+{
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+}
+.swiper-slide  .fg p
+{
+	font-size: 1.8em;
+	line-height:1.4;
+	margin: 1em 2em;
+}
